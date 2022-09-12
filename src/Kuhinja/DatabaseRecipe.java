@@ -68,7 +68,7 @@ public class DatabaseRecipe {
         recipes.put("musaka", recipe10);
 
     }
-    public ArrayList<Recipe> AccendingDifficulty()
+    public ArrayList<Recipe> AscendingDifficulty()
     {
         var list = new ArrayList<Recipe>();
         for(var recipe : recipes.values())
@@ -113,7 +113,7 @@ public class DatabaseRecipe {
         }
         return list;
     }
-    public ArrayList<Recipe> AccendingPrice()
+    public ArrayList<Recipe> AscendingPrice()
     {
         ArrayList<Recipe> list=new ArrayList<Recipe>();
         list.addAll(recipes.values());
