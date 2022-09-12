@@ -175,7 +175,7 @@ public class Main {
                 System.out.print("Sortiraj recepte po tezini rastuce(r) ili opadajuce(o)? \n");
                 char c = scChar.next().charAt(0);
                 if (c == 'r') {
-                    for (var recipe : DatabaseRecipe.getInstance().AccendingDifficulty()) {
+                    for (var recipe : DatabaseRecipe.getInstance().AscendingDifficulty()) {
                         recipe.print();
                     }
                 }
@@ -189,7 +189,7 @@ public class Main {
                 System.out.print("Sortiraj recepte po ceni rastuce(r) ili opadajuce(o)? \n");
                 char c = scChar.next().charAt(0);
                 if (c == 'r') {
-                    for (var recipe : DatabaseRecipe.getInstance().AccendingPrice()) {
+                    for (var recipe : DatabaseRecipe.getInstance().AscendingPrice()) {
                         recipe.print();
                     }
                 }
