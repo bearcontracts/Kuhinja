@@ -95,7 +95,7 @@ public class DatabaseRecipe {
     }
     public ArrayList<Recipe> DescendingDifficulty()
     {
-        var list1 = AccendingDifficulty();
+        var list1 = AscendingDifficulty();
         Collections.reverse(list1);
         return list1;
     }
